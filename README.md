@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">🧹 clean-mongoose</h1>
 
 <p align="center">
@@ -31,3 +32,7 @@ npm install @haseebmernstack/clean-mongoose
 # or
 yarn add @haseebmernstack/clean-mongoose
 ```
+=======
+# clean-mongoose
+🧹 Clean Mongoose documents for safe API responses — converts _id→id, removes __v &amp; passwords. TypeScript-ready utility for MERN developers.
+>>>>>>> 7c81d1556d50c195d718aa4185be321341af37ac
