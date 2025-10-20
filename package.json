@@ -1,0 +1,32 @@
+{
+    "name": "@haseebmernstack/clean-mongoose",
+    "version": "0.1.0",
+    "description": "Utility to clean Mongoose documents (convert _id to id, remove __v, remove private fields). TypeScript-ready.",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc && node ./scripts/generate-esm.js",
+        "prepublishOnly": "npm run build",
+        "lint": "eslint . --ext .ts",
+        "test": "node ./dist/test-runner.cjs.js || true",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "mongoose",
+        "clean",
+        "api",
+        "serializer",
+        "typescript",
+        "mern"
+    ],
+    "author": "Haseeb MernStack",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "eslint": "^8.0.0"
+    }
+}
