@@ -1,6 +1,55 @@
-node_modules
-dist
+# -------------------------
+# 📦 Node & Package Managers
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# -------------------------
+# 🏗️ Build & Output
+# -------------------------
+dist/
+coverage/
+build/
+.tmp/
+.cache/
+
+# -------------------------
+# ⚙️ TypeScript
+# -------------------------
+*.tsbuildinfo
+
+# -------------------------
+# 🔐 Environment Variables
+# -------------------------
 .env
-.vscode
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# -------------------------
+# 🧰 Editor & OS files
+# -------------------------
+.vscode/
+.idea/
 .DS_Store
-npm-debug.log
+Thumbs.db
+*.swp
+
+# -------------------------
+# 🧪 Testing
+# -------------------------
+jest-html-reporters-*
+test-results/
+reports/
+
+# -------------------------
+# 🚀 Misc
+# -------------------------
+*.log
+*.tgz
+.nyc_output

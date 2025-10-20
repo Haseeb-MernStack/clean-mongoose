@@ -9,6 +9,7 @@
         "dist"
     ],
     "scripts": {
+        "clean": "rimraf dist coverage .tsbuildinfo",
         "build": "tsc && node ./scripts/generate-esm.js",
         "prepublishOnly": "npm run build",
         "lint": "eslint . --ext .ts",
